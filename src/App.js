@@ -37,8 +37,8 @@ function App() {
   return (
     <div className="App">
       <div className="App-header" style={{backgroundColor : currentColor}}>
-        <div>
-        <h3 style={{border: "3px solid black", width: "400px", height:"auto", color: "black"}}>"{quote.quote}"</h3>
+        <div style={{border: "3px solid black",color: "black",backgroundColor: "white", width: "400px",  height:"auto"}}>
+        <h3>"{quote.quote}"</h3>
         </div>
         <div>
         <p style={{fontFamily: "cursive"}}>{quote.author}</p>
